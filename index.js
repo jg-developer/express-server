@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3333;
 
 app.get("/", (req, res) => {
-  res.send("25000");
+  res.send("250");
 });
 
 app.get("/timeout", (req, res) => {
